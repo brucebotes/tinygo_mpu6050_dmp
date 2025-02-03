@@ -2,10 +2,9 @@ package imu
 
 import (
 	"errors"
-	"main/mpu6050"
-
 	m "math"
 
+	"github.com/brucebotes/tinygo_mpu6050_dmp/mpu6050"
 	"tinygo.org/x/drivers"
 )
 
